@@ -31,7 +31,9 @@ const Navbar = () => {
             <a href="#">Contact</a>
         </li>
     </ul>
-    <button className='hidden md:block border-2 border-black p-2 ' type='button'>Book Now</button>
+    <button className='hidden md:block border-2 border-black p-2 ' type='button'>
+        <a href='https://booking.gocheckin.net/v2/12536' rel='noreferrer' target='_blank'>Book Now</a>
+    </button>
     <div onClick={handleNav} className='block md:hidden pr-2'>
             {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
         </div>
@@ -57,7 +59,9 @@ const Navbar = () => {
                 </li>
             </ul>
         <div className='pt-3 pl-6'>
-            <button className=' p-2 border-2 border-black' type='button'>Book Now</button>
+            <button className=' p-2 border-2 border-black' type='button'>
+                <a href='https://booking.gocheckin.net/v2/12536' rel='noreferrer' target='_blank'>Book Now</a>
+            </button>
         </div>
     </div>
 </div>
